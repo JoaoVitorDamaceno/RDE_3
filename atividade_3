@@ -1,0 +1,70 @@
+1 - A) 
+
+programa
+{
+
+	inclua biblioteca Calendario --> cal
+	
+	funcao inicio()
+	{
+		inteiro mes_atual = cal.mes_atual();
+		
+		escreva("faltam ", 12 - mes_atual, " mês(es) para acabar o ano");
+	}
+}
+
+1 - B)
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro dia_atual;
+		inteiro mes_atual;
+
+		escreva("Em que dia do mês você está: ");
+		leia(dia_atual);
+		escreva("Em que mês você está: ");
+		leia(mes_atual);
+
+		inteiro calculo = (mes_atual * 30) + dia_atual;
+		
+		escreva("faltam ", 365 - calculo, " dias para acabar o ano");
+	}
+
+}
+
+2 - A)
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro gm = 800;
+		inteiro gdm = 1200;
+
+		inteiro calculo = gm + gdm;
+
+		escreva(calculo, " v-bucks");
+		
+	}
+}
+
+2 - B)
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro gm = 800;
+		inteiro gdm = 1200;
+
+		inteiro calculo = (gm + gdm) * 30/100;
+
+		inteiro resultado = (gm + gdm) - calculo;
+
+		escreva(resultado, " v-bucks");
+	}
+}
